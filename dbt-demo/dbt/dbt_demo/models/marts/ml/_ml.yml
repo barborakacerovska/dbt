@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: ml
+    schema: dbt_ml
+    tables:
+      - name: customer_registration_prediction
+models:
+  - name: customer_registration_prediction
+    meta:
+      fal:
+        scripts:
+          after:
+            - customer_registration_prediction.py

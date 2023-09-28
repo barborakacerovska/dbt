@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+ - name: loyalty
+   schema: dbt_seeds
+   tables:
+     - name: loyalty_customers
+       columns:
+         - name: customer_id
+           tests:
+             - unique
