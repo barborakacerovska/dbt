@@ -1,0 +1,54 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Before workshop
+  chapters:
+    - file: chapters/00/before_workshop
+- caption: Introduction
+  chapters:
+    - file: chapters/01/scene
+      sections:
+        - file: chapters/01/reaction
+        - file: chapters/01/intro
+        - file: chapters/01/fundamentals
+- caption: Project setup
+  chapters:
+    - file: chapters/02/intro
+      sections:
+        - file: chapters/02/project_setup
+        - file: chapters/02/data_sources
+        - file: chapters/02/exercise
+        - file: chapters/02/project_structure
+- caption: Staging models
+  chapters:
+    - file:  chapters/03/intro
+      sections:
+        - file: chapters/03/base_models
+        - file: chapters/03/staging_models
+        - file: chapters/03/documentation_tests
+        - file: chapters/03/exercise
+- caption: Data Modelling
+  chapters:
+    - file:  chapters/04/intro
+      sections:
+        - file: chapters/04/marts
+        - file: chapters/04/exercise
+- caption: dbt Python Model
+  chapters:
+    - file:  chapters/05/intro
+      sections:
+        - file:  chapters/05/loyalty
+        - file:  chapters/05/python
+- caption: BONUS Snapshots
+  chapters:
+    - file:  chapters/06/intro
+      sections:
+        - file: chapters/06/historization
+        - file: chapters/06/exercise
+- caption: Outro
+  chapters:
+    - file:  chapters/07/intro
+
